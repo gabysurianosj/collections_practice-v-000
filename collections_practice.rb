@@ -3,6 +3,6 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  do |a, b|
+  do |a,b|
   b <=> a
 end
