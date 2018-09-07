@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  do |a,b|
+  array.sort {|first_num, second_num| second_num <=> first_num}
   
 end 
 end
