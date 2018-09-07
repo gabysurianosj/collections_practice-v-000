@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  array.sort {|first_num, second_num| second_num <=> first_num}
+  array.sort {|a, b| b <=> a}
 end 
 
 def sort_array_char_count(array)
